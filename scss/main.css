@@ -113,32 +113,4 @@
   border: 1px solid black;
   width: 724px;
   height: 836px;
-}
-
-@media screen and (max-width: 360px) {
-  .vapros {
-    width: 360px;
-  }
-  .vapros__box {
-    width: 360px;
-  }
-  .vapros__box h2 {
-    text-align: center;
-    width: 328px;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 700;
-  }
-  .vapros__box h2 span {
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 700;
-  }
-  .vapros__box__-row {
-    width: 360px;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

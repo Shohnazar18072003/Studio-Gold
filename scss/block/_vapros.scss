@@ -1,0 +1,137 @@
+@import "./global";
+
+.vapros {
+  margin-top: 180px;
+  margin-bottom: 180px;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 72px;
+
+    &-heading {
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72px;
+      color: #2f327d;
+
+      &-span {
+        font-family: "Sans Serif";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72px;
+        color: #fc377e;
+      }
+    }
+    &-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 116px;
+
+      &-left {
+        &-active {
+          display: flex;
+          height: 130px;
+          padding: 0px 0px 32px 32px;
+          align-items: center;
+          gap: 40px;
+          border-radius: 8px;
+          border: 3px solid #ffecee;
+          backdrop-filter: blur(7.5px);
+
+          &-text1 {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+            color: #2f327d;
+          }
+
+          &-text2 {
+            color: #2f327d;
+            font-family: Gilroy;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+          }
+
+          &-img {
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+        }
+        &-card {
+          margin-top: 32px;
+          display: flex;
+          padding-left: 0px;
+          align-items: center;
+          gap: 40px;
+          border-radius: 8px;
+          border: 2px solid #ffecee;
+          backdrop-filter: blur(7.5px);
+
+          &-text1 {
+            font-family: "Sans Serif";
+            padding-left: 32px;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+            color: #2f327d;
+          }
+
+          &-text2 {
+            width: 575px;
+            font-family: "Sans Serif";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 40px;
+            color: #2f327d;
+          }
+        }
+      }
+
+      &-right {
+        border: 1px solid black;
+        width: 724px;
+        height: 836px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:360px){
+   .vapros {
+      width: 360px;
+
+      &__box {
+        width: 360px;
+
+        h2 {
+         text-align: center;
+         width: 328px;
+         font-size: 32px;
+         line-height: 48px; 
+         font-weight: 700;
+         span {
+           font-size: 32px;
+           line-height: 48px; 
+           font-weight: 700;    
+         }
+        }
+
+        &__-row {
+                width: 360px;
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      }
+   }     
+}
