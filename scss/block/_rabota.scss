@@ -10,7 +10,7 @@ main {
   justify-content: center;
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
-  margin-top: 180px;
+  margin-top: 2700px;
 
 
   & .work {
@@ -19,7 +19,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 380px;
     & .work_main {
       margin-top: 180px;
       display: flex;
@@ -104,6 +103,7 @@ main {
         width: 100%;
         height: 45%;
         display: flex;
+        margin-bottom: 180px;
         & .work_down_bg {
           width: 50%;
           height: 100%;

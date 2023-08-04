@@ -1,7 +1,9 @@
 @import "./global";
 
 .form {
-
+  .form-box {
+    margin-bottom: 360px;
+  }
   &__title {
     display: flex;
     width: 1000px;
@@ -263,5 +265,4 @@
 }
 
 @media screen and (max-width: 360px) {
-
 }
